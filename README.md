@@ -1,5 +1,5 @@
-#TheOdinProject.com
-#Web Development 101
+# TheOdinProject.com
+## Web Development 101
 
 [Deconstruct and rebuild the Google homepage](https://www.theodinproject.com/lessons/html-css)
 
