@@ -1,14 +1,67 @@
 /* ************************************************************************ */
-/* Top Bar */
+/* Body */
+/* ************************************************************************ */
+a {
+    text-decoration: none;
+}
+
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+
+/* ************************************************************************ */
+/* Navigation Bar */
 /* ************************************************************************ */
 
+navbar {
+    margin-bottom: 40em;
+}
+
+.navbar__ul {
+    float: right;
+}
+
+.navbar__li {
+    list-style-type: none;
+    margin: 0 1em;
+    font-size: 0.75em;
+    color: #272727;
+    float: left;
+}
+
+.navbar__icon--app {
+    background-position: -132px -38px;
+    background-image: url('img/sprite-i1_1967ca6a.png');
+    background-size: 528px 68px;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: -0.8em;
+}
+
+.navbar__button--cta {
+    background-color: #4583eb;
+    border-radius: 0.1em;
+    padding: 0.75em 1.25em;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: -0.8em;
+}
 
 
 /* ************************************************************************ */
 /* Main Content */
 /* ************************************************************************ */
 #main-content {
-    margin: 0 auto;
+    margin: 4em auto;
     text-align: center;
 }
 
@@ -55,4 +108,3 @@
 /* ************************************************************************ */
 /* Footer */
 /* ************************************************************************ */
-
