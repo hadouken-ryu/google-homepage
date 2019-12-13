@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My copy of the Google Homepage</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
     <navbar class="cf">
@@ -14,30 +16,44 @@
             <li class="navbar__li">Images</li>
             <li class="navbar__li navbar__icon--app" alt="Google Apps"></li>
             <li class="navbar__li navbar__button--cta">Sign In</li>
-        </ul>        
+        </ul>
     </navbar>
-    
+
 
     <div id="main-content">
         <form action="" method="">
             <h1><img src="img/googlelogo_color_272x92dp.png" alt="Google Logo"></h1>
             <div id="main-content__searchbar">
                 <svg class="main-content__icon-magnifyingglass">
-                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                    <path
+                        d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                    </path>
                 </svg>
                 <input class="main-content__searchbar" type="search" name="query" id="">
             </div>
             <input class="main-content__button" type="button" name="search" value="Google Search">
             <input class="main-content__button" type="button" name="lucky_search" value="I'm Feeling Lucky">
-        </form>      
-        
+        </form>
+
 
         <p class="main-content__caption">Google offered in: <a href="#">Español (Latinoamérica)</a></p>
     </div>
 
 
-    <div id="footbar">
-        Argentina
-    </div>
+    <footer class="cf">
+        <p class="footer__country">Argentina</p>
+        <ul class="footer__business">
+            <li class="footer__li">Advertising</li>
+            <li class="footer__li">Business</li>
+            <li class="footer__li">About</li>
+            <li class="footer__li">How Search works</li>
+        </ul>
+        <ul class="footer__terms-and-conditions">
+            <li class="footer__li">Privacy</li>
+            <li class="footer__li">Terms</li>
+            <li class="footer__li">Settings</li>
+        </ul>
+    </footer>
 </body>
+
 </html>
